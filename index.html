@@ -1,98 +1,80 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <!-- 웹페이지 보이지는 않지만, 필요한 설정을 해두는 곳이에요.
-             우리가 집을 위해 미리 생각 해놓은 것을 적어두는 곳이라고 할 수 있죠!-->
-        <meta charset=“UTF-8” />
-        <meta http-equiv=“X-UA-Compatible” content=“IE=edge” />
-        <meta name=“viewport” content=“width=device-width, initial-scale=1.0” />
-        <meta property=“og:title” content=“로빈이 - 프로필 링크” />
-        <meta property=“og:description” content=“코딩연습중이야” />
-        <meta property=“og:image” content=“공유할 이미지” />
-        <title>이원연 - 프로필 링크</title>
-        <style>
-             @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="그라데이션">
+    <meta property="og:description" content="바다를 사랑하는 홍길동입니다.">
+    <meta property="og:image" content="https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/free_myprofile/%EA%B7%B8%EB%9D%BC%EB%8D%B0%EC%9D%B4%EC%85%98/%EB%B0%94%EB%8B%A4.png">
+    <title>그라데이션</title>
+    <style>
+        @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
         * {
             font-family: "Pretendard",serif;
-}
-            body {
-                background-color: #0a0a0a;
-            }
-            .profile {
-                width: 100px;
-                height: 100px;
-                margin-top: 30PX;
-
-                border-radius: 100%;
-
-                border : 2px solid white;
-
-                background-image: url('ps.jpg');
-                background-position: center;
-                background-size: cover;
-
-            }
-            .main {
-                color: rgb(17, 14, 14);
-                font-size: 20px;
-
-                margin-top: 20PX;
-                margin-bottom: 20PX;
-            }
-            .sub {
-                color: rgb(189, 41, 41);
-                font-size: 14px;
-
-                margin-top: 0px;
-                margin-bottom: 20px;
-            }
-            .wrap {
-                background-color: rgb(64, 228, 192);
-                width: 300px;
-                margin: 30px auto;
-
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-            }
-            .wrap > a {
-                width: 250px;
-                height: 30px;
-                margin: 20px auto;
-                background-color: rgb(203, 231, 76);
-                border-radius: 10px;
-
-                margin-bottom: 10px;
-                font-size: 14px;
-                font-weight: bold;
-                color:blueviolet;
-
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-
-                text-decoration: none;
-
-                box-shadow: 3px 3px 5px 0px black;    
-            }
-            .wrap > a:hover {
-                background-color: #d2d2d2;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="wrap">
-            <div class="profile"></div>
-            <h1 class="main">이원연</h1> 
-            <p class="sub">어디까지 알아보고 오셧나요?</p>
-            <p class="sub">SNS 함께 하실까요 ? </p>
-            <a target="_blank" href="https://www.instagram.com/dailydiary.man/">인스타그램</a>
-            <a target="_blank" href="https://twitter.com/dailydiary_man">트위터</a>
-            <a target="_blank" href="https://blog.naver.com/dailydiaryman">블로그</a>
-        
-            
-        </div>
-    </body>
+        }
+        body {
+            background: linear-gradient(180deg, #422B83 0%, #4A629F 100%);
+            height: 100vh;
+        }
+        .profile {
+            width: 100px;
+            height: 100px;
+            border-radius: 100%;
+            background-image: url('https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/free_myprofile/%EA%B7%B8%EB%9D%BC%EB%8D%B0%EC%9D%B4%EC%85%98/%EB%B0%94%EB%8B%A4.png');
+            background-position: center;
+            background-size: cover;
+        }
+        .main {
+            color : #FFFFFF;
+            font-size: 18px;
+            size : 20px;
+            margin-top: 30px;
+            margin-bottom: 10px;
+        }
+        .sub {
+            color : #FFFFFF;
+            font-size: 14px;
+            font-weight: 400;
+            size : 14px;
+            margin-top: 0px;
+            margin-bottom: 30px;
+        }
+        .wrap {
+            width: 300px;
+            margin: 30px auto 0px auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .wrap > a {
+            width: 320px;
+            height: 59px;
+            border-radius: 5px;
+            background-color: white;
+            margin-bottom: 16px;
+            font-size: 16px;
+            font-weight: bold;
+            color:#382863;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            border: 1px solid #353432;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <div class="profile"></div>
+        <h1 class="main">이원연</h1>
+        <p class="sub">안녕하세요 노는게 제일 좋은 이원연입니다.</p>
+        <a style="background-color: #F3EDFF;" target="_blank" href="https://www.instagram.com/dailydiary.man/">인별그램</a>
+        <a target="_blank" href="https://blog.naver.com/dailydiaryman">블로그</a>
+        <a style="background-color: #F3EDFF;" target="_blank" href="https://www.facebook.com/robin.lwy">페이스북</a>
+        <a target="_blank" href="https://twitter.com/dailydiary_man">트위터</a>
+    </div>
+</body>
 </html>
